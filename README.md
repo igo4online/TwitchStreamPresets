@@ -58,7 +58,7 @@ The application supports:
 
 Main application window:
 
-![Twitch Stream Presets screenshot](Screenshot.png)
+![Twitch Stream Presets screenshot](ScreenShot.png)
 ---
 
 ## Installation / インストール
