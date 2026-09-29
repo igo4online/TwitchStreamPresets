@@ -1,3 +1,129 @@
+# Twitch Stream Presets
+
+Twitchの配信タイトル、カテゴリ、タグを、あらかじめ登録したプリセットから簡単に切り替えるためのデスクトップアプリです。
+
+A desktop application for quickly applying predefined Twitch stream titles, categories, and tags.
+
+---
+
+## Features / 主な機能
+
+- 配信タイトルのプリセット切り替え
+- Twitchカテゴリの切り替え
+- タグの切り替え
+- 現在のTwitch配信設定の取得
+- プリセットの追加・編集・削除
+- プリセットの表示順変更
+- Twitch OAuthによるアカウント認証
+- Access Tokenの検証
+- Refresh Tokenによる自動更新
+- Windows向け実行ファイルの配布
+
+The application supports:
+
+- Stream title presets
+- Twitch category presets
+- Twitch tag presets
+- Retrieving current Twitch stream settings
+- Adding, editing, and deleting presets
+- Reordering presets
+- Twitch OAuth authentication
+- Access token validation
+- Automatic token refresh
+- Standalone Windows executable
+
+---
+
+## Screenshot / スクリーンショット
+
+アプリのメイン画面です。
+
+Main application window:
+
+![Twitch Stream Presets screenshot](ScreenShot.png)
+---
+
+## Installation / インストール
+
+### Windows executable
+
+Pythonをインストールしていない場合は、GitHub ReleasesからWindows用実行ファイルをダウンロードしてください。
+
+1. Open the Releases page.
+2. Download the latest Windows executable.
+3. Run the downloaded `.exe` file.
+4. Click `Twitchに接続 / Connect to Twitch`.
+5. Complete the Twitch authorization process in your browser.
+6. Return to the application and select a preset.
+7. Click `Twitchへ適用 / Apply to Twitch`.
+
+No Twitch Developer configuration is required for normal users.
+
+---
+
+## First Launch / 初回起動
+
+初回起動時には、Twitchアカウントとの接続が必要です。
+
+`Twitchに接続 / Connect to Twitch` を押すと、ブラウザでTwitchの認証ページが開きます。
+
+Twitch上でこのアプリへのアクセスを許可すると、アプリがUser Access Tokenを取得し、以後のTwitch APIアクセスに使用します。
+
+The application uses Twitch's Device Code OAuth flow.
+Users do not need to manually configure a Client ID, Client Secret, or redirect URI.
+
+---
+
+## Twitch Permissions / Twitch権限
+
+このアプリは以下のOAuth scopeを要求します。
+
+```text
+channel:manage:broadcast
+```
+
+この権限は、Twitchチャンネルの配信情報を変更するために使用されます。
+
+Specifically, this application uses this permission to update:
+
+- Stream title
+- Twitch category
+- Stream tags
+
+The application does not request unrelated permissions such as chat moderation, subscriptions, or private messages.
+
+---
+
+## Presets / プリセット
+
+プリセットには以下の情報が保存されます。
+
+- Preset name
+- Stream title
+- Twitch category
+- Twitch category ID
+- Tags
+
+Example:
+
+```json
+{
+  "Example Preset":{
+    "title":"Example stream title",
+    "game":"Just Chatting",
+    "game_id":"509658",
+    "tags":[
+      "English"
+    ]
+  }
+}
+```
+
+`game_id` is stored internally to reduce unnecessary Twitch API requests.
+Users normally do not need to know or edit the category ID directly.
+
+---
+
 ## Local Files / ローカル保存ファイル
 
 実行時に、アプリと同じディレクトリに以下のファイルが作成されます。
