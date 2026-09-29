@@ -6,6 +6,16 @@ A desktop application for quickly applying predefined Twitch stream titles, cate
 
 ---
 
+## Demo / デモ動画
+
+アプリの使用例はこちらです。
+
+Watch a short demonstration of the application:
+
+[![Twitch Stream Presets Demo](Screenshot_movie.png)](https://www.youtube.com/watch?v=i0bRYEKyLCA)
+
+---
+
 ## Features / 主な機能
 
 - 配信タイトルのプリセット切り替え
