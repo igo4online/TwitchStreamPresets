@@ -58,14 +58,14 @@ The application supports:
 
 Main application window:
 
-![Twitch Stream Presets screenshot](ScreenShot.png)
+![Twitch Stream Presets screenshot](Screenshot.png)
 ---
 
 ## Installation / インストール
 
 ### Windows executable
 
-Pythonをインストールしていない場合は、GitHub Releases(https://github.com/igo4online/TwitchStreamPresets/releases/tag/Release )からWindows用実行ファイルをダウンロードしてください。
+Pythonをインストールしていない場合は、[GitHub Releases](https://github.com/igo4online/TwitchStreamPresets/releases)からWindows用実行ファイルをダウンロードしてください。
 
 1. Open the Releases page.
 2. Download the latest Windows executable.
