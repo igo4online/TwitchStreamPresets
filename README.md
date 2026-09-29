@@ -16,6 +16,14 @@ Watch a short demonstration of the application:
 
 ---
 
+## Author / 作者
+
+Made by igo（伊号）
+
+- Twitch: https://www.twitch.tv/924igo
+- YouTube: http://youtube.com/@igo_game
+- Twitter (X): https://x.com/924igo
+
 ## Features / 主な機能
 
 - 配信タイトルのプリセット切り替え
@@ -57,7 +65,7 @@ Main application window:
 
 ### Windows executable
 
-Pythonをインストールしていない場合は、GitHub Releases( https://github.com/igo4online/TwitchStreamPresets/releases/tag/Release )からWindows用実行ファイルをダウンロードしてください。
+Pythonをインストールしていない場合は、GitHub Releases(https://github.com/igo4online/TwitchStreamPresets/releases/tag/Release )からWindows用実行ファイルをダウンロードしてください。
 
 1. Open the Releases page.
 2. Download the latest Windows executable.
@@ -397,9 +405,9 @@ Communication related to the Twitch API is performed directly between the applic
 
 ## License / ライセンス
 
-このソフトウェアのライセンスについては、`LICENSE` ファイルを参照してください。
+This project is licensed under the MIT License.
 
-See the `LICENSE` file for information about the software license.
+MIT Licenseのもとで公開しています。詳細は `LICENSE` ファイルを参照してください。
 
 ---
 
