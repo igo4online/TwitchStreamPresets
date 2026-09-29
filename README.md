@@ -57,7 +57,7 @@ Main application window:
 
 ### Windows executable
 
-Pythonをインストールしていない場合は、GitHub ReleasesからWindows用実行ファイルをダウンロードしてください。
+Pythonをインストールしていない場合は、GitHub Releases(https://github.com/igo4online/TwitchStreamPresets/releases/tag/Release)からWindows用実行ファイルをダウンロードしてください。
 
 1. Open the Releases page.
 2. Download the latest Windows executable.
