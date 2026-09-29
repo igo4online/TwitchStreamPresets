@@ -34,10 +34,13 @@ The application supports:
 
 ---
 
-## Screenshots
+## Screenshot / スクリーンショット
 
-Screenshots may be added here in a future release.
+アプリのメイン画面です。
 
+Main application window:
+
+![Twitch Stream Presets screenshot](Screenshot.png)
 ---
 
 ## Installation / インストール
