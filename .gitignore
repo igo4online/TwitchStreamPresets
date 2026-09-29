@@ -1,0 +1,7 @@
+token.json
+presets.json
+build/
+dist/
+__pycache__/
+*.pyc
+*.spec
